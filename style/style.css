@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-primary-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+  /* default style  */
+  *{
+    margin: 0; 
+  }
+
+  .primary-color{
+    color: rgb(230, 83, 60);
+  }
+  body{
+    margin: 0;
+    background-color: #111;
+  }
+  .container{
+    width: 90%;
+    margin: 5rem;
+    border-radius: 1rem;
+   
+  }
+  /* body{
+   background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat;
+   background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  } */
+  .nav-title{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-item{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    align-items: center;
+    padding: 4px;
+    cursor: pointer;
+    
+  }
+
+
+  .span{
+    color: #ffffff;
+    padding: 5px 20px 5px 20px;
+    border-radius: 46px;
+background: rgb(230, 83, 60);
+align-items: center;
+  }
+
+  /* banner style  */
+  .banner{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .banner-section h1{
+    font-size: 78px;
+    color: #ffffff;
+    font-weight: 900;
+    text-align: left;
+    
+  }
+  .banner-section p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF80;
+  
+  }
+  .banner-section{
+    margin-left:-125px;
+    margin-top: 90px;
+    margin-bottom: 76px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    
+  }
+
+  .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 0px;
+  }
+
+.btn-primary{
+  background-color: #E6533C;
+  color: #ffffff;
+  padding: 15px 35px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn-secondry{
+  color: #ffffff;
+  padding: 15px 35px;
+  box-sizing: border-box;
+  border: 1px solid rgb(230, 83, 60);
+  border-radius: 42px;
+  background: transparent;
+  margin-top: 3px;
+}
+.card{
+  color: #ffffff;
+  width: 50%;
+  height: 15%;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  
+
+}
+.card h3{
+  font-size: 30px;
+}
+.card-2{
+  color: #ffffff;
+  width: 50%;
+  height: 13%;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+.card-2 h3{
+  font-size: 24px;
+}
+@media screen and (max-width:576px) {
+  .nav-container{
+    flex-direction: column;
+    justify-items: center;
+    margin-right: 95px;
+  }
+  .banner{
+    flex-direction: column;
+    justify-items: center;
+    margin-left: 0px;
+  }
+  .banner-section{
+    flex-direction: column;
+    justify-items: center;
+    margin-left: 20px;
+  }
+}
