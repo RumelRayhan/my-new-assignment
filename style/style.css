@@ -138,10 +138,13 @@ align-items: center;
   background: transparent;
   margin-top: 3px;
 }
+.card-containers{
+  position: absolute;
+}
 .card{
   color: #ffffff;
   width: 170px;
-  height: 110px;
+  height: 100px;
   padding: 10px 10px;
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -173,8 +176,8 @@ align-items: center;
   background: rgba(255, 255, 255, 0.1);
   text-align: center;
   position: relative;
-  bottom: 180px;
-  right: 250px;
+  bottom: 280px;
+  right: 80px;
 }
 .card-2 h4{
   font-size: 24px;
@@ -239,10 +242,17 @@ align-items: center;
 
 
 @media screen and (max-width:576px) {
+  body{
+    
+    margin: 0px 20px;
+  }
+  .container{
+    margin-bottom: 0;
+  }
   .nav-container{
     flex-direction: column;
     justify-items: center;
-    margin-right: 300px;
+    margin-right: 350px;
     
   }
   .nav-item{
@@ -251,23 +261,57 @@ align-items: center;
   #menu-icon{
     display: block;
     position: relative;
-    left: 230px;
+    left: 250px;
     bottom: 36px;
   }
   .banner{
     flex-direction: column;
     justify-items: center;
     margin-left: 0px;
+    /* margin-bottom: 100px; */
+    
   }
   .banner-section{
     flex-direction: column;
     justify-items: center;
     margin-left: 20px;
+    
   }
+  .banner-section h1{
+    font-size: 45px;
+  }
+
   .trainer{
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
   }
+  .trainer img{
+
+    
+  }
+  .card{
+    position: relative;
+    left: 200px;
+    top: 150px;
+  }
+  .card-2{
+    position: relative;
+    right: -20px;
+    top: 300px;
+  }
+  .habbit-container{
+    margin-top: 0px;
+    
+
+}
+.habbit-title{
+  font-size: 36px;
+}
+.habbit-desc{
+  font-size: 16px;
+  text-align: center;
+  margin: 5px;
+}
 }
