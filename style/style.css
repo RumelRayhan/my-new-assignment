@@ -391,6 +391,113 @@ height: 300px;
   cursor: pointer;
   
 }
+/* Team section css */
+.team-header{
+  /* border: 2px solid red; */
+  width: 45%;
+  height: 110px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
+}
+.team-header h1{
+  font-size: 3em;
+  font-weight: 900px;
+  margin-bottom: 16px;
+  color: #FFFFFF;
+}
+.team-header p{
+  font-size: 16px;
+  color: #FFFFFF50;
+}
+.team-container{
+  width: 65em;
+  height: 640px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  margin-top: 60px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 15px;
+  padding: 20px;
+  
+}
+.teams{
+  /* border: 2px solid red; */
+  width: 330px;
+  height: 295px;
+  border-radius: 18px;
+  position: relative;
+  margin-top: 10px;
+}
+.teams img{
+  width: 100%;
+  border-radius: 18px;
+}
+.team-info{
+position: absolute;
+bottom: 10px;
+color: #ffffff;
+left: 15px;
+}
+/* .bg-image{
+  border-radius: 18px;
+  background-image:url(../images/trainer3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+#There{
+  background-image: url(../images/trainer6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Cody{
+  background-image: url(../images/trainer5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Diann{
+  background-image: url(../images/trainer4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+}
+#Darel{
+  border-radius: 18px;
+  background-image:url(../images/trainer3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Came{
+  background-image:url(../images/trainer2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Jerome{
+  background-image:url(../images/trainer1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.footer-section{
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  height: 490px;
+  margin-top: 90px;
+  padding-top: 96px;
+}
+
+.footer-container{
+  width: 1060px;
+  height: 250px;
+  border: 2px solid red;
+  margin: 0 auto;
+}
 
 @media screen and (max-width:576px) {
   body{
@@ -400,8 +507,8 @@ height: 300px;
   }
   .container{
     margin: 0;
-    padding-left: 60px;
-    padding-top: 40px;
+     padding-left: 60px;
+     padding-top: 40px;
   }
   .nav-container{
     flex-direction: column;
@@ -556,5 +663,28 @@ width: 250px;
 }
 .bmi-calculator-section{
   margin-top: 20px;
+}
+.team-header{
+  margin: 0 auto;
+  font-size: 18px;
+  width: 309px;
+  margin-top: 65px;
+}
+.team-header h1{
+  font-size: 30px;
+}
+.team-container{
+  grid-template-columns: repeat(1,1fr);
+  margin: 0 auto;
+  width: 340px;
+  padding: 0;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 35px;
+
+}
+.teams{
+  width: 310px;
 }
 }
