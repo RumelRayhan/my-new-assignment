@@ -36,6 +36,7 @@ body{
     line-height: normal;
     cursor: pointer;
     margin-left: 55px;
+    font-style: italic;
   }
   .nav-title:hover{
     border-bottom: 2px solid #ffffff;
@@ -487,18 +488,77 @@ left: 15px;
 .footer-section{
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
-  height: 490px;
+  height: 450px;
   margin-top: 90px;
   padding-top: 96px;
 }
 
 .footer-container{
   width: 1060px;
-  height: 250px;
-  border: 2px solid red;
+  height: 270px;
+  /* border: 2px solid red; */
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.left-side{
+  width: 443px;
+  height: 170px;
+}
+.left-side h1{
+  font-size: 70px;
+  color: #E6533C;
+  font-style: italic;
+}
+.left-side p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF50;
+}
+.right-side{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 515px;
+  height: 270px;
+  margin-left: 400px;
+  gap: 50px;
+}
+.get-start h4{
+  font-size: 35px;
+  color: #FFFFFF;
+  margin-top: 40px;
+}
+.get-start{
+  margin-bottom: 136px;
+  
 }
 
+.get-start ul{
+  height: 100px;
+  color: #FFFFFF50;
+  list-style: none;
+  margin-top: 30px;
+  /* border: 2px solid red; */
+  padding: 0px;
+}
+.get-start li{
+  font-size: 20px;
+  text-align: left;
+  margin-top: 20px;
+}
+.hr{
+  width: 1060px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.reserved{
+  width: 320px;
+  height: 25px;
+  margin: 35px auto;
+  color: #FFFFFF80;
+}
 @media screen and (max-width:576px) {
   body{
     /* max-width: 576px; */
@@ -507,8 +567,8 @@ left: 15px;
   }
   .container{
     margin: 0;
-     padding-left: 60px;
-     padding-top: 40px;
+    padding-left: 60px;
+    padding-top: 40px;
   }
   .nav-container{
     flex-direction: column;
@@ -645,6 +705,7 @@ width: 250px;
   flex-direction: column;
   height: 760px;
   
+  
 }
 .calculate-container{
   width: 300px;
@@ -682,9 +743,53 @@ width: 250px;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 35px;
-
 }
 .teams{
   width: 310px;
+}
+.footer-section{
+  height: 900px;
+  width: 340px;
+  margin-top: 60px;
+  padding-top: 40px;
+  position: relative;
+}
+.footer-container{
+  flex-direction: column;
+  width: 300px;
+  height: 308px;
+  margin: 0;
+  
+}
+.left-side{
+  width: 300px;
+  padding-left: 20px;
+}
+.right-side{
+  flex-direction: column;
+  width: 300px;
+  margin: 0;
+  height: 520px;
+  position: absolute;
+}
+.hr{
+  width: 300px;
+  position: absolute;
+  bottom: 90px;
+  left: 17px;
+}
+#left-item{
+  position: absolute;
+  top: 350px;
+}
+.get-start{
+  margin-top: 100px;
+  margin-bottom: 0;
+  margin-right: 120px;
+}
+.reserved{
+  position: absolute;
+  bottom: 25px;
+  left: 65px;
 }
 }
